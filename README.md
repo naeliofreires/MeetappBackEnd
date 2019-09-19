@@ -1,13 +1,13 @@
-- src — Pastas aplicação.
-- app.js - Nossa classe de configuração do servidor.
-- server.js - Vamos iniciar nosso servidor.
+- app.js - Classe de configuração do servidor.
+- server.js - Start servidor.
 - routes.js - Rotas da aplicação.
-- app - Onde vai fica nossa camada MVC e também nossas pastas como middlewares, - services, etc… Que mais pra frente talvez nosso projeto precise.
-- config - Nossos arquivos de configuração
+- app - Camada MVC, Middlewares, Services e etc...
+- config - Arquivos de configuração
 
 ## Executando
   - yarn
   - yarn dev
+  - **Necessário uma conexão com o banco de dados, veja os requisitos na pasta de configuração!**
 
 ### Materias de apoio
     https://medium.com/@andrewoons/how-to-define-sequelize-associations-using-migrations-de4333bf75a7
